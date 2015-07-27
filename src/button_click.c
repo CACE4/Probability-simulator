@@ -52,10 +52,8 @@ static void deinit(void) {
   window_destroy(window);
 }
 
-// commen ttststets ta
-
 int main(void) {
   init();
   app_event_loop();
   deinit();
-}
+}//fuck her in the pussy
