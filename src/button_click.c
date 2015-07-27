@@ -3,7 +3,7 @@
 static Window *window;
 
 // alex wasn't here; yet
-static TextLayer *text_layer;
+static TextLayer *text_layer; // this comment
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(text_layer, "Select");
