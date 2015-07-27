@@ -1,6 +1,8 @@
 #include <pebble.h>
 
 static Window *window;
+
+// alex wasn't here; yet
 static TextLayer *text_layer;
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
