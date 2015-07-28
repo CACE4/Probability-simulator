@@ -3,27 +3,31 @@
     "capabilities": [
         ""
     ],
-    "companyName": "ckhawks@gmail.com",
-    "longName": "elegant lux test app",
+    "companyName": "Pebble Technology",
+    "longName": "Simple Menu",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "fonts/Roboto-Regular.ttf",
-                "name": "FONT_ROBOTO_REGULAR_18",
-                "type": "font"
+                "file": "images/EVERYTHING.png",
+                "name": "dice2",
+                "type": "png"
             },
             {
-                "file": "fonts/ElegantLux-Mager.otf",
-                "name": "FONT_ELEGANT_LUX_18",
-                "type": "font"
+                "file": "images/Dice420.png",
+                "name": "dice",
+                "type": "png-trans"
             }
         ]
     },
     "sdkVersion": "3",
-    "shortName": "elegant lux test app",
-    "uuid": "1f296350-54e3-4c6c-b32d-d2ba9ae618d5",
-    "versionLabel": "1.0",
+    "shortName": "Simple Menu",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "69a53987-379e-4ae7-a3c2-d08e5ffe8511",
+    "versionLabel": "2.0",
     "watchapp": {
         "watchface": false
     }
