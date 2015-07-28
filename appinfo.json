@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/Tiral1.png",
+                "name": "Dice1",
+                "type": "png"
+            },
+            {
                 "file": "images/arrow-bottom-3x.png",
                 "name": "IMAGE_DOWN_ICON",
                 "type": "png"

@@ -6,6 +6,7 @@ static Window *window;
 // alex wasn't here; yet
 static TextLayer *text_layer; // this comment
 
+
 static GBitmap *up_icon;
 static GBitmap *down_icon;
 static ActionBarLayer *action_bar;
@@ -13,12 +14,12 @@ static ActionBarLayer *action_bar;
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(text_layer, "Select");
   
-  int r = rand() % 7;
+  int r = rand() % 6;
   
-  static char buffer[7];
+  static char buffer[6];
   
   snprintf(buffer, sizeof(buffer), "%d", r + 1); // Adds one to remove 0 from possibilities
-  
+    
   // int r = rand() % 7;
   
   text_layer_set_text(text_layer, buffer);
