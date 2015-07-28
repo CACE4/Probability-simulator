@@ -4,30 +4,25 @@
         ""
     ],
     "companyName": "ckhawks@gmail.com",
-    "longName": "ProbablySimulator",
+    "longName": "elegant lux test app",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/Tiral1.png",
-                "name": "Dice1",
-                "type": "png"
+                "file": "fonts/Roboto-Regular.ttf",
+                "name": "FONT_ROBOTO_REGULAR_18",
+                "type": "font"
             },
             {
-                "file": "images/arrow-bottom-3x.png",
-                "name": "IMAGE_DOWN_ICON",
-                "type": "png"
-            },
-            {
-                "file": "images/arrow-top-3x.png",
-                "name": "IMAGE_UP_ICON",
-                "type": "png"
+                "file": "fonts/ElegantLux-Mager.otf",
+                "name": "FONT_ELEGANT_LUX_18",
+                "type": "font"
             }
         ]
     },
     "sdkVersion": "3",
-    "shortName": "ProbablySimulator",
-    "uuid": "2ee402a1-8d9c-4c2d-9edc-de4fca3e8ced",
+    "shortName": "elegant lux test app",
+    "uuid": "1f296350-54e3-4c6c-b32d-d2ba9ae618d5",
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": false
