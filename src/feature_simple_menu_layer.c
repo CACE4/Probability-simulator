@@ -11,6 +11,7 @@ static SimpleMenuItem s_first_menu_items[NUM_FIRST_MENU_ITEMS];
 static SimpleMenuItem s_second_menu_items[NUM_SECOND_MENU_ITEMS];
 static BitmapLayer *bit;
 static GBitmap *s_menu_icon_image;
+static GBitmap *s_menu_score_image;
 
 static bool s_special_flag = false;
 static int s_hit_count = 0;
@@ -42,17 +43,20 @@ static void special_select_callback(int index, void *ctx) {
 
 static void main_window_load(Window *window) {
   s_menu_icon_image = gbitmap_create_with_resource(RESOURCE_ID_dice2);
-   bit=bitmap_layer_create(GRect(0,0,144,100));
- bitmap_layer_set_bitmap(bit, s_menu_icon_image);
+  s_menu_score_image = gbitmap_create_with_resource(RESOURCE_ID_score_WHITE);
+   
   // an int as such to easily change the order of menu items later
   int num_a_items = 0;
 
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
+    .icon=s_menu_score_image, 
     .title = "Score Counter",
     .subtitle = "Up to 6 players,",
     .callback = menu_select_callback,
+    
   };
   s_second_menu_items[0] = (SimpleMenuItem) {
+    .icon=s_menu_icon_image,
     .title = "Dice Simulator",
     .callback = menu_select_callback,
   };

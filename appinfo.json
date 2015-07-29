@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/smolpileocoins.png",
+                "name": "score",
+                "type": "png-trans"
+            },
+            {
                 "file": "images/EVERYTHING.png",
                 "name": "dice2",
                 "type": "png"
